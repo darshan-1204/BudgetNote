@@ -22,5 +22,11 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(applicationContext,ExpenseActivity::class.java)
             startActivity(intent)
         }
+
+        binding.transaction.setOnClickListener(){
+
+            var intent = Intent(applicationContext,Transactions::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -52,6 +52,7 @@
 
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtIncome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#0BC804"
@@ -82,6 +83,7 @@
 
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPaymentMethod"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableRight="@drawable/ic_payment"
@@ -110,6 +112,7 @@
 
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtParty"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableRight="@drawable/ic_person"
