@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
     <!--    ActionBar-->
     <RelativeLayout
         android:id="@+id/actionBar"
@@ -150,6 +149,7 @@
                 android:gravity="center"/>
 
             <TextView
+                android:id="@+id/totalIncome"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -179,6 +179,7 @@
                 android:gravity="center"/>
 
             <TextView
+                android:id="@+id/totalExpense"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -208,6 +209,7 @@
                 android:gravity="center"/>
 
             <TextView
+                android:id="@+id/totalBalance"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -220,6 +222,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
 
 </LinearLayout>

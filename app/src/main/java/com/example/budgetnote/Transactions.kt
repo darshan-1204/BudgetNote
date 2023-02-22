@@ -25,7 +25,6 @@ class Transactions : AppCompatActivity() {
 
         dataBase = DataBase(applicationContext)
 
-
         var list = dataBase.showData()
         binding.recycle.layoutManager = LinearLayoutManager(applicationContext)
         binding.recycle.adapter = RecycleAdapter(list)

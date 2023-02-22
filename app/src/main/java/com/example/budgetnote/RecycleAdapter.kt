@@ -35,5 +35,14 @@ class RecycleAdapter(list: ArrayList<BudgetModel>) : RecyclerView.Adapter<Recycl
         holder.p_method.text = list[position].p_method
         holder.income.text = list[position].income.toString()
         holder.expense.text = list[position].expense.toString()
+
+        if(list[position].income == null)
+        {
+            holder.income.text = " "
+        }
+        if(list[position].expense == null)
+        {
+            holder.expense.text = " "
+        }
     }
 }
